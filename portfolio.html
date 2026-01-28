@@ -189,7 +189,7 @@ document.getElementById("contactForm")
         message: e.target[2].value
     };
 
-    const res = await fetch("http://localhost:5000/send",{
+    const res = await fetch("https://portfolio-backend-i40j.onrender.com",{
         method:"POST",
         headers:{
             "Content-Type":"application/json"
