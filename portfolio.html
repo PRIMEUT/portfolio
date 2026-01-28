@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal - Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="dark">
+    <div class="main-container">
+        <div class="sidebar">
+            <!-- Profile -->
+            <div class="profile">
+                <a href="c:\Users\optim\Downloads\Ahmad_Khan_SOC_Network_Security_FINAL.pdf" class="btn">Download CV</a>
+                <a href="c:\Users\optim\Downloads\Ahmad_Khan_NOC_Network_Engineer_FINAL.pdf" class="btn">Download CV</a>
+
+                <img src="c:\Users\optim\OneDrive\文档\ahmad.jpg" alt="">
+                <h2>Ahmad khan</h2>
+                <p>NOC/SOC Engineer</p>
+            </div>
+            <!-- contact -->
+            <div class="contact">
+
+                <div class="email">
+                    <h4 class="label">Email</h4>
+                    <a href="/" class="value">optimus15m@gmail.com</a>
+                </div>
+
+                <div class="phone">
+                    <h4 class="label">Contact Me</h4>
+                    <a href="/" class="value">+91 7348699823</a>
+                </div>
+
+                <div class="loc">
+                    <h4 class="label">Location</h4>
+                    <p class="value">Shaheen Bagh, Delhi</p>
+                </div>
+
+            </div>
+            <!-- social -->
+            <div class="social">
+                <a href="https://github.com/primeut"><img src="github.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/ahmad-khan-667461398/"><img src="linkedin.svg" alt=""></a>
+
+            </div>
+
+        </div>
+        <div id="contact" class="fade">
+    <h2 class="head">Contact Me</h2>
+    <div class="line"></div>
+
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</div>
+        <div class="main-content">
+            <!-- for Navigation -->
+            <div id="navigation">
+                <nav>
+                    <a href="#about" class="active">About</a>
+                    <a href="#skill">Skill</a>
+                    <a href="#education">Education</a>
+                    <a href="portfolio">Portfolio</a>
+                </nav>
+
+            </div>
+
+            <!-- For about section -->
+            <div id="about" class="fade">
+                <h2 class="head">
+                    About Me
+                </h2>
+                <div class="line"></div>
+                <p class="head-para">
+                   I am a Computer Science graduate with a strong academic background in networking and information technology. I have completed CCNA certification and am currently pursuing CCNP, with hands-on experience in network configuration, monitoring, and troubleshooting using industry-standard tools such as Cisco Packet Tracer, GNS3, and Check Point NG.
+
+I possess sound knowledge of routing and switching, network security fundamentals, and system monitoring. Through practical lab work and simulations, I have developed the ability to analyze network issues, implement appropriate solutions, and maintain operational efficiency.
+
+I am trained in network infrastructure management, basic cybersecurity practices, and technical support. I demonstrate strong discipline, professionalism, and commitment to continuous learning. I am capable of working effectively in both independent and team-based environments.
+
+My career objective is to build a professional career in Network Operations and Cybersecurity by contributing technical expertise, ethical practices, and dedication to organizational growth
+                </p>
+
+            </div>
+            <!-- for skill -->
+            <div id="skill" class="fade">
+                <h2 class="head">Skill</h2>
+                <div class="line"></div>
+                <div class="grid-items">
+                    <div class="items glow">
+                        <img src="https://wallpaperaccess.com/full/8151440.jpg" alt="">
+                        <h3>PYTHON3</h3>
+                    </div>
+                    <div class="items glow">
+                        <img src="https://simpleicons.org/icons/css.svg" alt="">
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="items glow">
+                        <img src="https://simpleicons.org/icons/git.svg" alt="">
+                        <h3> Git & Github</h3>
+                    </div>
+                    </div>
+                    <div class="items glow">
+                        <img src="https://simpleicons.org/icons/mysql.svg" alt="">
+                        <h3>MySQL</h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- for education section -->
+            <div id="education" class="fade">
+                <h2 class="head">
+                    Education
+                </h2>
+                <div class="line"></div>
+                <div class="edu">
+                    <div class="edufirst">
+                        <p>2022 - 2025</p>
+                        <h3 class="edu-main">
+                            Bacheolor of Science in CSE
+                        </h3>
+                        <div class="college">
+                            <i>Shibli National College, Azamgarh (UP)</i>
+                        </div>
+                        <p class="des">
+                            focused on learning Algorithm, DBMS, Computer Network, Operating system, Soft Computing and
+                            Data
+                            Science Algorithms.
+                        </p>
+                        <div class="goal"></div>
+                    </div>
+                </div>
+
+                <div class="edu">
+                    <div class="edusec">
+                        <p>2025 - 2026</p>
+                        <h3 class="edu-main">
+                            Network and security Engineer
+                        </h3>
+                        <div class="college">
+                            <i> Shibli National College, Azamgarh (UP)
+                        </div></i>
+                        <p class="des">
+                            focused on learning Network Security, Ethical Hacking, Cyber Security, Cloud Computing and
+                            Virtualization.
+                        </p>
+                        <div class="goal"></div>
+                    </div>
+                </div>
+                <div class="liner"></div>
+
+
+
+
+
+            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+<script>
+document.getElementById("contactForm")
+.addEventListener("submit", async (e)=>{
+
+    e.preventDefault();
+
+    const data = {
+        name: e.target[0].value,
+        email: e.target[1].value,
+        message: e.target[2].value
+    };
+
+    const res = await fetch("http://localhost:5000/send",{
+        method:"POST",
+        headers:{
+            "Content-Type":"application/json"
+        },
+        body: JSON.stringify(data)
+    });
+
+    if(res.ok){
+        alert("Message Sent Successfully 😎");
+        e.target.reset();
+    }
+});
+</script>
+</body>
+
+</html>
+<script>
+/* Scroll Animation */
+
+const fades = document.querySelectorAll(".fade");
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add("show");
+        }
+    });
+});
+
+fades.forEach(fade => observer.observe(fade));
+
+/* Typing Effect */
+
+const typingText = "Frontend Developer | React | Freelancer";
+let i = 0;
+
+function typing(){
+    if(i < typingText.length){
+        document.querySelector(".typing").textContent += typingText[i];
+        i++;
+        setTimeout(typing, 90);
+    }
+}
+
+if(document.querySelector(".typing")){
+    typing();
+}
+</script>
